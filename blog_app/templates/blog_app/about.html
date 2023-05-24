@@ -1,0 +1,15 @@
+{%extends "blog_app/base.html" %} {%block content%}
+
+<h1>Welcome!</h1>
+<p>
+  It is a blog for GEEKS, called VivekBlog. Users may see a variety of postings
+  on the website's main page and add new content regarding topics in computer
+  science and emerging technologies. The website offers features including
+  registration, profile updates, profile photo uploads, login and logout, as
+  well as the ability to write new posts, edit old ones, and remove them. User
+  postings are the only ones that may be updated and removed. After making an
+  account, you can only post.
+</p>
+<h5>Begin your journey</h5>
+<a class="ml-2" href="{% url 'register' %}">Sign Up</a>
+{% endblock content %}
